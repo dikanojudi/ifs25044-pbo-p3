@@ -1,0 +1,38 @@
+ifs18005-java-oop/buku-tamu/
+├── src/
+│   ├── adapter/
+│   │   ├── presenter/
+│   │   │   └── GuestPresenter.java
+│   │   └── repository/
+│   │       ├── GuestRepository.java
+│   │       └── InMemoryRepository.java
+│   ├── domain/
+│   │   ├── entity/
+│   │   │   └── Guest.java
+│   │   ├── exception/
+│   │   │   ├── DomainException.java
+│   │   │   ├── EntityNotFoundException.java
+│   │   │   └── ValidationException.java
+│   │   └── repository/
+│   │       ├── IGuestRepository.java
+│   │       └── IRepository.java
+│   ├── framework/
+│   │   ├── util/
+│   │   │   └── InputUtil.java
+│   │   └── view/
+│   │       └── GuestView.java
+│   ├── usecase/
+│   │   └── GuestUseCase.java
+│   └── App.java
+├── test-cases/
+│   ├── TC-01.expected
+│   ├── TC-01.tc
+│   ├── TC-02.expected
+│   ├── TC-02.tc
+│   ├── TC-03.expected
+│   ├── TC-03.tc
+│   ├── TC-04.expected
+│   ├── TC-04.tc
+│   ├── TC-05.expected
+│   └── TC-05.tc
+└── README.md

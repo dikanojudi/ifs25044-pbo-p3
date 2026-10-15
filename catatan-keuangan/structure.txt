@@ -1,0 +1,38 @@
+ifs18005-java-oop/catatan-keuangan/
+├── src/
+│   ├── adapter/
+│   │   ├── presenter/
+│   │   │   └── FinancePresenter.java
+│   │   └── repository/
+│   │       ├── InMemoryRepository.java
+│   │       └── TransactionRepository.java
+│   ├── domain/
+│   │   ├── entity/
+│   │   │   ├── SortOption.java
+│   │   │   ├── Transaction.java
+│   │   │   └── TransactionType.java
+│   │   ├── exception/
+│   │   │   ├── DomainException.java
+│   │   │   ├── EntityNotFoundException.java
+│   │   │   └── ValidationException.java
+│   │   └── repository/
+│   │       ├── IRepository.java
+│   │       └── ITransactionRepository.java
+│   ├── framework/
+│   │   ├── util/
+│   │   │   └── InputUtil.java
+│   │   └── view/
+│   │       └── FinanceView.java
+│   ├── usecase/
+│   │   └── FinanceUseCase.java
+│   └── App.java
+├── test-cases/
+│   ├── TC-01.expected
+│   ├── TC-01.tc
+│   ├── TC-02.expected
+│   ├── TC-02.tc
+│   ├── TC-03.expected
+│   ├── TC-03.tc
+│   ├── TC-04.expected
+│   └── TC-04.tc
+└── README.md
