@@ -1,0 +1,38 @@
+ifs18005-java-oop/jadwal-kegiatan/
+├── src/
+│   ├── adapter/
+│   │   ├── presenter/
+│   │   │   └── ActivityPresenter.java
+│   │   └── repository/
+│   │       ├── ActivityRepository.java
+│   │       └── InMemoryRepository.java
+│   ├── domain/
+│   │   ├── entity/
+│   │   │   ├── Activity.java
+│   │   │   ├── Day.java
+│   │   │   └── SortOption.java
+│   │   ├── exception/
+│   │   │   ├── DomainException.java
+│   │   │   ├── EntityNotFoundException.java
+│   │   │   └── ValidationException.java
+│   │   └── repository/
+│   │       ├── IActivityRepository.java
+│   │       └── IRepository.java
+│   ├── framework/
+│   │   ├── util/
+│   │   │   └── InputUtil.java
+│   │   └── view/
+│   │       └── ActivityView.java
+│   ├── usecase/
+│   │   └── ActivityUseCase.java
+│   └── App.java
+├── test-cases/
+│   ├── TC-01.expected
+│   ├── TC-01.tc
+│   ├── TC-02.expected
+│   ├── TC-02.tc
+│   ├── TC-03.expected
+│   ├── TC-03.tc
+│   ├── TC-04.expected
+│   └── TC-04.tc
+└── README.md
